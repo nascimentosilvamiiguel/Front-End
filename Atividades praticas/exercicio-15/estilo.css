@@ -1,0 +1,100 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 40px 16px;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg, #eef8f1, #f7fbff);
+  color: #263238;
+}
+
+.container {
+  width: 100%;
+  max-width: 680px;
+  margin: auto;
+  padding: 30px;
+  background-color: white;
+  border-radius: 16px;
+  box-shadow: 0 14px 35px rgba(32, 72, 52, 0.16);
+}
+
+h1 {
+  margin-top: 0;
+  color: #174f31;
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-top: 18px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  margin-top: 8px;
+  padding: 12px;
+  border: 1px solid #aeb8c2;
+  border-radius: 8px;
+  font-size: 16px;
+}
+
+input:focus {
+  border-color: #176b3a;
+  outline: 3px solid rgba(23, 107, 58, 0.15);
+}
+
+button {
+  width: 100%;
+  margin-top: 20px;
+  padding: 12px 16px;
+  border: none;
+  border-radius: 8px;
+  background-color: #176b3a;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #10522c;
+}
+
+.resultado {
+  margin-top: 22px;
+  padding: 16px;
+  border-left: 5px solid #176b3a;
+  border-radius: 8px;
+  background-color: #f4f9f5;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+@media (max-width: 520px) {
+  body {
+    padding: 20px 12px;
+  }
+
+  .container {
+    padding: 22px;
+  }
+}
+
+
+/* Botão de voltar - injetado automaticamente */
+.voltar-inicio {
+    display: inline-block;
+    margin: 16px 0;
+    padding: 8px 16px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 6px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+.voltar-inicio:hover {
+    background-color: #555;
+}
